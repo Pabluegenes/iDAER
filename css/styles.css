@@ -1,0 +1,185 @@
+.top-info {
+    background: #2e6c9c;
+}
+.logo-readi {
+    max-width: 80px;
+}
+.text-blue {
+    color: #2e6c9c;
+}
+.columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.seccion {
+    flex: 1;
+    margin-bottom: 10px;
+}
+.seccion.paquete {
+    color: #fff;
+}
+.seccion.paquete h3 {
+    font-size: 1.1rem;
+}
+.seccion.paquete p {
+    font-size: 0.7rem;
+}
+.seccion.paquete p.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.seccion.contenido {
+    padding: 2rem;
+}
+.contenido .card {
+    background: transparent;
+    border: none;
+}
+.contenido .card .card-body {
+    min-height: 250px;
+    text-align: center;
+}
+.head-content h1 {
+    font-weight: lighter;
+}
+.head-content p {
+    font-size: 0.8rem;
+}
+.seccion-busca,
+.seccion-agenda {
+    background: #2e6c9c;
+}
+.seccion-cotizacion {
+    background: #8ec9bf;
+}
+.btn-add,
+.seccion-cotizacion .totals {
+    background: #569888;
+}
+.btn-add {
+    border-radius: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: .9rem;
+}
+.btn-add:hover {
+    background: #39806e;
+}
+.btn-descripcion {
+    background: #8ec9bf;
+    border: 0;
+    position: absolute;
+    bottom: 38px;
+    left: 28%;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.btn-descripcion:hover {
+    background: #39806e;
+}
+#button-search,
+.card-body,
+.row-bottom {
+    background: #e5e5e5;
+}
+#card-results {
+    max-height: 90vh;
+}
+.p-readi-footer {
+    padding: 5rem 2rem;
+    font-size: 0.8rem;
+}
+.p-readi-footer p {
+    margin-bottom: 0;
+}
+.price-card {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.image-bg {
+    background: url("../img/readi-01.png") no-repeat center center;
+    background-size: cover;
+}
+.totals .product {
+    margin-bottom: 2rem;
+}
+.totals .promo .promo-used .title,
+.totals .product .description .name {
+    font-weight: lighter;
+}
+.totals .product .description .short-description {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+.totals .product .subtotal .amount {
+    font-weight: bold;
+}
+.totals .product .subtotal .delete {
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+.totals .promo {
+    width: 100%;
+    color: #fef8ad;
+}
+#total {
+    color: #ddd14c;
+    font-size: 1.3rem;
+}
+.input-coupon {
+    font-size: 0.8rem;
+}
+.input-coupon label {
+    width: 30%;
+    font-weight: lighter;
+}
+.btn-cupon {
+    background: #c0d552;
+    color: #fff;
+    font-weight: lighter;
+}
+.btn.schedule {
+    background: #8ec9bf;
+    border: none;
+}
+.btn.schedule:hover {
+    background: #6eaaa0;
+}
+.send-email .input-group > .form-control {
+    width: 100%;
+}
+.datepicker-inline {
+    background: #fff;
+}
+footer .flex-column a {
+    color: #000;
+    text-decoration: none;
+    line-height: 1.5rem;
+}
+footer p {
+    color: #000 !important;
+}
+.paq_1 {
+    background: url("/img/paq_01.jpeg") no-repeat;
+    background-size: cover;
+}
+.paq_2 {
+    background: url("/img/paq_02.jpg") no-repeat;
+    background-size: cover;
+}
+.paq_3 {
+    background: url("/img/paq_03.webp") no-repeat;
+    background-size: cover;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 1.3rem;
+}
+@media (max-width: 767.98px) {
+    .image-bg {
+        padding-bottom: 100%;
+    }
+}
